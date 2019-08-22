@@ -1,0 +1,7 @@
+{
+  "name": "qbank-app",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

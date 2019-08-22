@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-slides scrollbar="true" [options]="slideOpts" *ngFor="let item of response">
+    <ion-slide style="background:gray">
+      <h1>{{item.question}}</h1>
+    </ion-slide>
+  </ion-slides>
+</ion-content>
